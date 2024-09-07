@@ -6,7 +6,7 @@ let chute;
 let tentativas = 1; 
 // enquanto chute nao for igual ao n.s
 while (chute != numeroSecreto) {
-    chute = prompt(`Escolha um número entre 1 e ${numeroMaximo}`);
+   
 
     if (chute == numeroSecreto) {
         break;
