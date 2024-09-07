@@ -1,5 +1,5 @@
 alert('Jogo do número secreto da Bia');
-let numeroMaximo = 50;
+let numeroMaximo = 100;
 let numeroSecreto = parseInt(Math.random () * numeroMaximo + 1);
 console.log(numeroSecreto);
 let chute; 
